@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'futura'; /*a name to be used later*/
+    src: url('font.ttf'); /*URL to font*/
+}
+
+
+html {
+	font-family: 'futura';
+	zoom: 110%;
+
+	
+}
+
+body {
+    overflow-x:hidden;
+}
+
+.navigation {
+	height: 50px;
+	background-color: black;
+}
+
+.topBar {
+	height: 50px;
+	padding-top: 2px;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:100;
+}
+
+.topBarAbt {
+	opacity: 0.8;
+	height: 50px;
+	padding-top: 2px;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:100;
+	background-color: #ebebeb;
+}
+
+.top1 {
+	margin-left: 8px;
+
+}
+
+.top1 h4 {
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	margin-left: 730px;
+	font-family: 'futura';
+	color: #009541;
+	font-weight: bold;
+	font-size: 1.2em;
+	position: absolute;
+}
+
+.top1 .scrollImg {
+	height: 40px;
+}
+
+.top1 .scrologo{
+	margin-top: 2px;
+	margin-left: 200px;
+	position: absolute;
+	display: none;
+	transition: ease-in-out 0.4s;
+}
+
+.top1 .abtscrologo{
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 200px;
+	position: absolute;
+	transition: ease-in-out 0.4s;
+}
+
+
+.logo {
+	height: 30px;
+}
+
+.logoArea {
+	margin-top: 50px;
+}
+
+.homeContainer {
+	background: url("background3.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 900px;
+}
+
+
+
+#mainLogo {
+
+	height: 400px;
+	margin: auto;
+	display: block;
+}
+
+.contentArea {
+	margin-top: 50px;
+	height: 850px;
+	background-color: #009541;
+	opacity: 0.80;
+}
+
+.selectorArea {
+	margin-top: 5px;
+	height: 55px;
+}
+
+.selectorNav {
+	
+}
+
+.nav1 {
+	margin-top: 3px;
+}
+
+
+.nav1 a h2{
+	padding: 4px;
+	background-color: #009541;
+	margin-top: 2px;
+	font-family: 'futura';
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+	margin-left: 6px;
+	margin-right: 6px;
+	height: 40px;
+	font-weight: bold;
+	transition: ease-in-out 0.2s;
+	transition-delay: 2000;
+	opacity: 0.9;
+}
+
+.nav1 a h2:hover{
+	opacity: 0.9;
+	transition: ease-in-out 0.2s;
+	transition-delay: 2000;
+	background-color: #ebebeb;
+	color: #009541;
+}
+
+.contentArea h3 {
+	font-weight: bold;
+	margin-top: 15px;
+	text-align: center;
+	color: white;
+	font-family: 'futura';
+}
+
+.contentArea p {
+	font-family: 'futura';
+	color: white;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.contentArea #extraP {
+	margin-top: 10px;
+	font-family: 'futura';
+	color: white;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#colButton {
+	margin-left: 39.5%;
+	padding: 10px;
+	background-color: #ebebeb;
+	font-family: 'futura';
+	color: #009541;
+	margin-top: 12px;
+}
+
+.collectionArea {
+	border: solid #009541 4px;
+	height: 300px;
+	transition: ease-in-out 0.3s;
+}
+
+.collectionArea:hover {
+	opacity: 0.4;
+	transition: ease-in-out 0.3s;
+}
+
+.showcaseArea {
+	height: 400px;
+	
+}
+
+
+
+.clickArea h5 {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'futura';
+	background-color: #009541;
+	color: #ebebeb;
+	font-weight: bold;
+	position: absolute;
+	display: block;
+}
+
+.sliderContainer {
+	height: 400px;
+}
+
+.page1, .page2, .page3 {
+	height: 500px;
+}
+
+.page1 {
+	background: url("flooring.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.page1 h2 {
+	margin-right: 50px;
+	text-align: right;
+	line-height: 880px;
+	font-family: 'futura';
+	font-size: 3em;
+	color: #ebebeb;
+}
+
+.page2 h2 {
+	margin-right: 50px;
+	text-align: right;
+	line-height: 880px;
+	font-family: 'futura';
+	font-size: 3em;
+	color: #ebebeb;
+}
+
+.page3 h2 {
+	margin-right: 50px;
+	text-align: right;
+	line-height: 880px;
+	font-family: 'futura';
+	font-size: 3em;
+	color: #ebebeb;
+}
+
+.page2 {
+	background: url("ceiling.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.page3 {
+	background: url("moreserve.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.sliderContainer a #servicesID {
+	padding-left: 12px;
+	padding-right: 12px;
+	border: solid #ebebeb 5px;
+	margin-top: 220px;
+	position: absolute;
+	display: block;
+	z-index: 50;
+	margin-left: 390px;
+	font-family: 'futura';
+	color: #ebebeb;
+	font-weight: bold;
+	font-size: 3em;
+	transition: ease-in 0.2s;
+}
+
+.sliderContainer a #servicesID:hover {
+	box-shadow: 0px 0px 50px #ebebeb;
+	transition: ease-out 0.2s;
+}
+
+.visitBar {
+	margin-top: 100px;
+	height: 600px;
+	background: url("botBackground.jpg") no-repeat center center fixed; 
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.visitArea h3 {
+	margin-top: 20px;
+	font-size: 2.5em;
+	font-family: 'futura';
+	text-align: center;
+	color: #009541;
+}
+
+.branchArea {
+	height: 450px;
+
+	
+}
+
+.branchArea h4 {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'futura';
+	color: #009541;
+}
+
+#goTop {
+	border: solid 2px #009541;
+	border-radius: 100px;
+	font-family: 'futura';
+	background-color: #009541;
+	font-weight: bold;
+	margin-left: 46.3%;
+	color: white;
+	padding: 10px;
+	transition: ease-out 0.1s;
+}
+
+#goTop:hover {
+	background-color: white;
+	color: #009541;
+	transition: ease-out 0.1s;
+}
+
+.footer {
+	background-color: #009541;
+	height: 90px;
+	opacity: 0.80
+}
+
+.footer p {
+	padding-top: 25px;
+	text-align: center;
+	font-family: 'futura';
+	color: #ebebeb;
+	
+}
+
+/* ABOUT PAGE */
+
+.aboutContainer {
+	height: 900px;
+	background: url("abtBackground3.jpg") no-repeat center center fixed; 
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.aboutArea {
+	height: 700px;
+	margin-top: 70px
+	
+}
+
+.aboutArea2 {
+	background-color: #ebebeb;
+	height: 600px;
+	margin-right: 40px;
+	opacity: 0.8;
+}
+
+.defNavBar {
+	margin-top: 60px;
+	height: 200px;
+	
+}
+
+.defNavBar ul {
+	position: fixed;
+}
+
+.defNavBar ul li {
+	list-style: none;
+	background-color: #ebebeb;
+	opacity: 0.8;
+	margin-top: 10px;
+	font-family: 'futura';
+	font-size: 1.4em;
+	padding-left: 10px;
+	padding-right: 80px;
+	transition: ease-in-out 0.2s;
+
+}
+
+.defNavBar ul a {
+	color: #009541;
+}
+
+.defNavBar ul li:hover {
+	transition: ease-in-out 0.2s;
+	opacity: 0.2;
+}
+
+.shadowImg {
+	transition: linear 0.2s;
+}
+
+.shadowImg:hover {
+	opacity: 0.5;
+	transition: linear 0.2s;
+}
+
